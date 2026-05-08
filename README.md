@@ -98,7 +98,7 @@ Budget Per Day: $68.48
 
     <h2>Author</h2>
 
-    <p>Your Name</p>
+    <p>Tanmay M Katakol</p>
 
 </body>
 </html>
