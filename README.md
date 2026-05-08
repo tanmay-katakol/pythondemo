@@ -48,7 +48,7 @@ expense-tracker/
     </ol>
 
     <pre>
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/tanmay-katakol/pythondemo.git
     </pre>
 
     <ol start="2">
