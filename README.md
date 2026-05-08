@@ -1,105 +1,118 @@
-# pythondemo 
-This is my first repo consisting of my first python project. The below will explain the details of my project:-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expense Tracker README</title>
-</head>
-<body>
+This is my first repo. It is a python based project.
+# Expense Tracker 💰
 
-    <h1>Expense Tracker</h1>
+A simple command-line Expense Tracker built using Python.  
+This project allows users to add expenses, save them into a CSV file, and summarize stored expenses.
 
-    <p>
-        A simple Python-based Expense Tracker application that helps users 
-        manage and monitor their daily expenses efficiently.
-    </p>
+---
 
-    <h2>Features</h2>
-    <ul>
-        <li>Add and store expenses</li>
-        <li>Track spending against a budget</li>
-        <li>Calculate remaining budget</li>
-        <li>Display daily spending limit</li>
-        <li>Store expense data using CSV files</li>
-    </ul>
+## Features 🚀
 
-    <h2>Technologies Used</h2>
-    <ul>
-        <li>Python</li>
-        <li>CSV File Handling</li>
-    </ul>
+- Add new expenses
+- Select expense categories
+- Save expenses to a CSV file
+- Read and summarize saved expenses
+- Handles UTF-8 characters and emojis
+- Skips empty or invalid rows safely
 
-    <h2>Project Structure</h2>
+---
 
-    <pre>
-expense-tracker/
+## Technologies Used 🛠️
+
+- Python 3
+- CSV Module
+- File Handling
+
+---
+
+## Project Structure 📂
+
+```bash
+pythondemo/
 │
 ├── expense_tracker.py
 ├── expenses.csv
-└── README.md
-    </pre>
+├── README.md
+```
 
-    <h2>How to Run</h2>
+---
 
-    <ol>
-        <li>Clone the repository</li>
-    </ol>
+## How It Works ⚙️
 
-    <pre>
-git clone https://github.com/tanmay-katakol/pythondemo.git
-    </pre>
+1. User enters:
+   - Expense name
+   - Expense amount
+   - Expense category
 
-    <ol start="2">
-        <li>Navigate to the project folder</li>
-    </ol>
+2. The program:
+   - Creates an Expense object
+   - Saves data into `expenses.csv`
+   - Reads the file
+   - Displays all stored expenses
 
-    <pre>
-cd your-repository-name
-    </pre>
+---
 
-    <ol start="3">
-        <li>Run the program</li>
-    </ol>
+## Example Output 🖥️
 
-    <pre>
-python expense_tracker.py
-    </pre>
+```bash
+🎯 Running Expense Tracker
 
-    <h2>Example Output</h2>
+Enter expense name: Coffee
+Enter expense amount: 5
 
-    <pre>
-Running Expense Tracker
+Select a category:
+1. 🍔 Food
+2. 🏡 Home
+3. 💼 Work
+4. 🎉 Fun
+5. 🤷 Misc
 
-Total Spent: $425
-Budget Remaining: $1575
-Budget Per Day: $68.48
-    </pre>
+Enter a category number [1 - 5]: 5
 
-    <h2>Learning Objectives</h2>
+< Expense: Coffee, 🤷 Misc, $5.00 >
 
-    <ul>
-        <li>Python functions</li>
-        <li>File handling</li>
-        <li>Dictionaries and lists</li>
-        <li>Budget calculations</li>
-        <li>Clean code structure</li>
-    </ul>
+🎯 Saving user Expense
+🎯 Summarizing user Expense
+Coffee 5.0 🤷 Misc
+```
 
-    <h2>Future Improvements</h2>
+---
 
-    <ul>
-        <li>Add graphical interface</li>
-        <li>Monthly expense reports</li>
-        <li>Category-based filtering</li>
-        <li>Database integration</li>
-    </ul>
+## CSV Format 📄
 
-    <h2>Author</h2>
+Expenses are stored in this format:
 
-    <p>Tanmay M Katakol</p>
+```csv
+Coffee,5.0,🤷 Misc
+Gas,70.0,💼 Work
+```
 
-</body>
-</html>
+---
 
+## Learning Outcomes 📚
+
+This project helped me learn:
+
+- Python classes and objects
+- Functions
+- Loops and conditionals
+- File handling
+- CSV file operations
+- Error handling
+- UTF-8 encoding
+
+---
+
+## Future Improvements 🔥
+
+- Monthly expense summary
+- Expense filtering by category
+- Data visualization using graphs
+- GUI version using Tkinter
+- Database integration
+
+---
+
+## Author 👨‍💻
+
+Created by [Tanmay M Katakol]
